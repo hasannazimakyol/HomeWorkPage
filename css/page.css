@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+@media (max-width:500px){
+    #navbar{
+        flex-direction: column;
+        padding: 2vh;
+    }
+
+    .contents{
+        flex-direction: column;
+    }
+
+    .videos .video{
+        flex-direction: column;
+    }
+
+    .videos .video .video-img{
+        margin-bottom: 3vh;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.background-first{
+    background: rgb(240, 199, 123);
+}
+
+.background-second{
+    background: rgb(162, 162, 235);
+} 
+
+#navbar {
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    display: flex;
+    padding: 0.6rem;
+    height: 11vh;
+    
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+#navbar ul li a{
+    padding: 3vh;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a:hover{
+    padding: 3vh;
+    background: rgb(162, 162, 235);
+    border-radius: 20px;
+}
+
+
+#page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4vh;
+    padding: 4vh;
+}
+
+#page img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 2vh;
+}
+
+#page .info{
+    text-align: center;
+    margin: 2vh;
+}
+
+#page .info p{
+    font-style: italic;
+}
+
+#page a{
+    color: white;
+    margin: 2vh;
+    padding: 2vh 3vh;
+    border-radius: 1vh;
+    letter-spacing: 0.3px;
+    text-align: center;
+    border: 1px solid rgb(123, 123, 202);
+    
+}
+
+#page a:hover{
+   color: rgb(123, 123, 202);
+   background-color: white;
+   border: 1px solid rgb(123, 123, 202);
+}
+
+#contents{
+    color: white;
+    padding: 4vh;
+    margin-bottom: 5vh ;
+}
+
+.contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contents .content {
+    text-align: center;
+    margin: 3vh;
+    width: 33%;
+}
+
+.contents .content i{
+    margin-bottom: 2vh;
+}
+
+#videos {
+    padding: 3vh;
+    margin: 3vh;
+}
+
+.videos{
+    display: flex;
+    flex-direction: column;
+}
+
+#videos h1{
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.videos .video{
+    display: flex;
+    padding: 4vh;
+    margin-bottom: 4vh;
+}
+
+.videos .video .video-img a img{
+    margin-right: 5vh;
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.videos .video .video-info .title {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 3vh;
+    letter-spacing: 1px;
+}
+
+ #contact .form form button{
+    margin: 2vh;
+    padding: 2vh 3vh;
+    border-radius: 1vh;
+    letter-spacing: 0.3px;
+    text-align: center;
+    width: 100%;
+    font-size: 1.2rem;
+    border: 1px solid rgb(240, 199, 123);
+} 
+
+#contact .form form button:hover{
+    color: rgb(228, 180, 92);
+    background-color: white;
+    border: 1px solid rgb(240, 199, 123);
+    cursor: pointer;
+ }
+
+.form{
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.form-group{
+    padding: 2vh;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 1vh;
+}
+
+.form-group .form-input{
+    width: 100%;
+    padding: 2vh;
+    resize: none;
+    border-radius: 10px;
+}
+
+#contact .form ul {
+    list-style-type: none;
+    display: flex;
+    margin: 2vh;
+    align-self: center;
+}
+
+#contact .form ul li a{
+    padding: 2vh 4vh;
+    font-size: 6vh;
+}
+
+#contact .form ul li a:hover{
+    opacity: 70%;
+}
